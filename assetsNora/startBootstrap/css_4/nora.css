@@ -1,0 +1,299 @@
+@import url("colors.css");
+@font-face {
+  font-family: Comfortaa;
+  src: url(../fonts/Comfortaa.ttf);
+}
+
+@font-face {
+  font-family: poetsenone;
+  src: url('../fonts/poetsenone/poetsenone.ttf'), <-- Check if the path is correct (ttf not tff)
+}
+
+
+.navbar-toggler-icon{
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 8px black;
+  animation-name: tog;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tog {
+  0%   {background-color:transparent;border-radius: 50%;}
+  40%   {background-color:transparent;border-radius: 50%;}
+  45%  {background-color:white;border-radius: 25%;}
+  50%  {background-color:white;border-radius: 40%;}
+  55%  {background-color:white;border-radius: 25%;}
+  90%  {background-color:white;border-radius: 25%;}
+  85%  {background-color:white;border-radius: 25%;}
+  90%  {background-color:white;border-radius: 50%;}
+  95%  {background-color:white;border-radius: 25%;}
+  100% {background-color:transparent;border-radius: 50%;}
+}
+body{
+  background:var(--color1);
+  color:var(--color4);
+  font-family: 'Comfortaa', cursive;
+
+}
+.longDescHead{
+  background: var(--color5);
+  border:1px solid var(--color2);
+  border-radius: 8px;
+  padding:128px;
+}
+.topBlock{
+  margin-top:64px
+}
+.walletPanel{
+  background: var(--color5);
+  border:1px solid var(--color2);
+  border-radius: 8px;
+  padding:64px;
+}
+.buyPriceSpan{
+  padding:24px;
+  margin:8px;
+  background:var(--color1);
+  border:1px solid var(--color2);
+  box-shadow: 0px 4px 8px 4px var(--color1a);
+  font-size: 1em;
+}
+.phraseTable{
+  background: var(--color2);
+  padding:24px;
+  border-radius: 8px;
+}
+.longDescDiv{
+  background: var(--color1);
+  border:1px solid var(--color2);
+  border-radius: 8px;
+  padding:128px;
+}
+.descriptionBox{
+  border:1px solid var(--color2);
+  background: var(--color2);
+  max-width: 350px;
+  padding:8px;
+  font-size:1em;
+  border-radius:8px;
+  box-shadow: 0px 4px 8px 4px var(--color1a);
+
+}
+.adBox{
+  background: var(--color5);
+  border:1px solid var(--color2);
+  padding:8px;
+  /* width:80px; */
+  text-align:center;
+}
+.save{
+  padding-top:150px;
+}
+#totalProductsAvail{
+  font-size: .8em;
+  padding:0px;
+  padding-top:64px;
+  margin:0px;
+}
+.phraseBox{
+  background: var(--color5);
+  border:1px solid var(--color2);
+  padding:8px;
+  width:80px;
+  text-align:center;
+}
+.navbarColor{
+  background: var(--color1);
+}
+
+.messageBox{
+  /* background: */
+}
+.pad25{
+  padding:64px;
+  text-align: center;
+}
+.objectify{
+  background: white;
+  border:4px solid black;
+  color:black;
+  padding:35px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 8px 4px black;
+}
+.ads1{
+  background: var(--color2);
+}
+.productImage{
+  width:70%;
+}
+a {
+  color: var(--color4 );
+}
+.productAd{
+  background: var(--color5);
+  /* font-family: 'poetsenone'; */
+  font-size: 1.5em;
+  font-weight: bold;
+  border:4px solid var(--color2);
+  margin-top:24px;
+  border-radius: 8px;
+  /* box-shadow: 4px 4px 0px 4px var(--color2a); */
+  padding:12px;
+}
+.productDetailsDiv{
+  font-size: 1em;
+}
+
+/* body paramaters */
+
+/* font sizes */
+
+/* h1,h2,h3,h4,h5{padding:8px;} */
+
+
+/* root colors */
+
+#tabkleTitle{
+  padding:8px;
+}
+
+.w100{
+  width:100%;
+}
+
+/* colors of tables  */
+td{
+  boder:1px solid black;
+  padding:8px;
+  /* color:white; */
+}
+
+/* text color for links */
+.link{
+  color:royalblue;
+  text-decoration:underline;
+}
+/* same as link but need to check it's use */
+.alreadyPaid{color:royalblue;text-decoration:underline;}
+
+
+/* font coloring for testing and production */
+.rFont{color:red;}
+.yFont{color:yellow;}
+.gFont{color:  limegreen;}
+.orange{color:orange;}
+.y{background: yellow;}
+.g{background: green;}
+.b{background:black;color:white;}
+
+/* colors the section  */
+.section1{
+  background-image: linear-gradient(to right, var(--colorb), #850a0f);
+  color:white;
+}
+/* color of section */
+.section2{
+  background: #1e1e1d;
+  color:white;
+}
+
+
+
+
+#songInfo{
+  padding-top: 25px;
+  /* box-shadow: 2px 2px 2px 2px #1d1e1e; */
+}
+.artwork{
+  width:88px;
+}
+.d{
+  display:none;
+}
+
+#menuDiv{
+  box-shadow: 2px 2px 2px 2px black;
+  margin-bottom:20px;
+}
+
+
+
+
+#artistDiv{
+  padding:16px;
+}
+
+
+
+.panel{
+
+  /* border: 1px solid #d2d2d2; */
+  /* border-radius: 8px; */
+  padding:8px;
+
+}
+
+
+
+.y{
+ background: yellow;
+ color:black;
+}
+.long{
+  width:100%;
+
+}
+.fill{
+  background: yellow;
+  border:1px solid red;
+}
+
+#instructions{
+  padding:25px;
+  box-shadow: 2px 2px 2px 2px #1d1e1e;
+  border-bottom:1px solid #d2d2d2;
+  /* border-left:2px solid #d2d2d2; */
+
+}
+#mainMenu{
+  padding:16px;
+}
+/*  custom edit for game image in gameSale();*/
+.nextGameConvo{
+  margin-bottom: 70px;
+}
+.btn{
+  border-radius: 12px;
+}
+img{
+
+  border-radius: 12px;
+}
+.borderRed{
+  border: 1px solid red;
+}
+.borderYellow{
+  border: 1px solid yellow;
+}
+
+.borderBlue{
+  border: 1px solid Blue;
+}
+
+
+.advertisement{
+  color: darkgray;
+}
+
+.div1{
+  background:var(--color2);
+  border-radius:50px;
+}
+.contentBox{
+  background: var(--color2);
+  padding:25px;
+  border-radius:25px;
+}

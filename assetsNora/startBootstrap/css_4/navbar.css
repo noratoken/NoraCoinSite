@@ -1,0 +1,69 @@
+@import url("colors.css");
+@font-face {
+  font-family: Comfortaa;
+  src: url(../fonts/Comfortaa.ttf);
+}
+.navbarCss{
+  background: var(--color1);
+  color:white;
+  /*border-radius:
+                24px
+                24px
+                24px
+                24px
+                ; */
+
+}
+.navbar-toggler-icon{
+  box-shadow: 0px 0px 5px #ffff;
+  border-radius:50%;
+  color:white;
+  font-size:70%;
+  background-image: linear-gradient(to right, var(--color1), var(--color2));
+}
+.navbarCss a{
+  color:gray
+
+}
+.navbar-toggler-icon{
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 8px black;
+  animation-name: tog;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tog {
+  0%   {background-color:transparent;border-radius: 50%;}
+  40%   {background-color:transparent;border-radius: 50%;}
+  45%  {background-color:white;border-radius: 25%;}
+  50%  {background-color:white;border-radius: 40%;}
+  55%  {background-color:white;border-radius: 25%;}
+  90%  {background-color:white;border-radius: 25%;}
+  85%  {background-color:white;border-radius: 25%;}
+  90%  {background-color:white;border-radius: 50%;}
+  95%  {background-color:white;border-radius: 25%;}
+  100% {background-color:transparent;border-radius: 50%;}
+}
+
+
+
+.btn-success{
+  background: #37003D;
+  border:1px solid #37003D;
+  box-shadow: 0px 0px 4px black;
+}
+.btn-danger{
+  background: var(--color2);
+  border:1px solid var(--color2);
+  box-shadow: 0px 0px 4px black;
+}
+.soundicon{
+  width:104px;
+}
+
+.navbarBottom{
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px black;
+}

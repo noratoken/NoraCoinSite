@@ -1,0 +1,19 @@
+:root {
+  /*first color*/
+  --color1: white;
+  --color1: #e0f2f3;
+  --color1a: #cee0e1;
+  /*second color*/
+  --color2: white;
+  --color2a: white;
+  /*third color*/
+  --color3: #f9c3b0;
+  --color3a: #baac26;
+
+  --color4 : black;
+  --color5 : #f2f2f2;
+}
+
+.k{
+
+}

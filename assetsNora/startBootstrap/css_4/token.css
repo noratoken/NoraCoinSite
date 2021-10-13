@@ -1,0 +1,101 @@
+body{
+	background:#008fff;
+	background:#008fff;
+	background:#0277bc;
+	background:white;
+	/* background:black; */
+	color:black;
+
+}
+.bgColorGreen{
+	background-color: #3dba52;
+}
+.g{
+	background:#cccccc;
+	border: 1px solid black;
+}
+.geo{
+
+	overflow: hidden;
+	width: 20%;
+	height: 200px;
+	width: 200px;
+}
+.d{
+	display:none;
+}
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #a0117f; // Choose your own color here
+ }
+.btn{
+
+	background-color: #58a5ef;
+	color:black;
+	border: 1px solid #004c8b;
+
+	margin-top:24px;
+	margin-bottom:12px;
+	box-shadow: 1px 1px 1px 1px black	;
+}
+.b{
+	min-height:600px;
+	/* max-height:	600px; */
+	padding-top:60px;
+	padding-bottom:200px;
+
+}
+
+.yttria_response{
+	margin:4px;
+	background:#008fff;
+	padding:10px;
+	border-radius:8px;
+	width:80%;
+	margin-right:20%;
+}
+
+.user_response{
+	color:black;
+	background:#d2d2d2;
+	padding:10px;
+	border-radius:8px;
+	width:80%;
+	margin-left:20%;
+}
+.match{
+	width:168px;
+}
+.navbar{
+
+	/* background:#004c8b; */
+	background:black;
+	background:transparent;
+	border:0px;
+}
+.panel{
+	padding:15px;
+	background:#004c8b;
+	box-shadow: 1px 1px 1px 1px black	;
+	border-radius:12px;
+	margin-bottom:4px;
+
+}
+.d{
+	display:none;
+
+}
+.labelIs{
+	width:60px;
+	text-align:left;
+	background:#0277bc;
+
+}
+.form-inline{
+
+	margin-bottom:4px;
+}
+#ai_conversation{
+	height:70px;
+
+}

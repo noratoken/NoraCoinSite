@@ -1,0 +1,39 @@
+.navbar{
+	background:transparent;
+	color:white;
+	margin-bottom:12px;
+}
+.navbar-font-color{
+	color:white;
+	
+}
+.bg{
+	background-image: url("img/bg_main.png");
+}
+body{
+	
+	background-image: url("img/bg_dark.png");
+	color:white;
+}
+h1,h2,h3,h4{
+	color:white;
+}
+
+.btn{
+	background:#4fb3bf;
+	min-height:64px;
+	color:black;	
+}
+.panel{
+	padding:12px;
+	padding-top:80px;
+	padding-bottom:200px;
+	border:1px solid #d2d2d2;
+	max-height:500px;
+	min-height:500px;
+	background-image: url("img/bg_main.png");
+}
+
+.d{
+	display:none;
+}
